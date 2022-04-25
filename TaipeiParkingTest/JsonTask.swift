@@ -17,14 +17,13 @@ class JsonTask {
             }
         // 2. 轉為Data格式
         guard let parkData = try? Data(contentsOf: sourcesURL) else {
-            fatalError("error2")
+                fatalError("error2")
             }
         // 3. 解析為 ParkModel 型別
             let decorder = JSONDecoder()
-            guard let flatPark = try? decorder.decode(ParkModel.self, from: parkData) else { fatalError("error3")
+            guard let flatPark = try? decorder.decode(ParkModel.self, from: parkData) else { 
+                fatalError("error3")
             }
-        
         return flatPark
-
     }
 }
