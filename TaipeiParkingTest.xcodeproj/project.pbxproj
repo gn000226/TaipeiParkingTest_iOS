@@ -13,6 +13,11 @@
 		12CECB5628087B8100B5CC49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CECB5428087B8100B5CC49 /* Main.storyboard */; };
 		12CECB5828087B8300B5CC49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12CECB5728087B8300B5CC49 /* Assets.xcassets */; };
 		12CECB5B28087B8300B5CC49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12CECB5928087B8300B5CC49 /* LaunchScreen.storyboard */; };
+		12CECB6328087CB700B5CC49 /* TCMSV_alldesc.json in Resources */ = {isa = PBXBuildFile; fileRef = 12CECB6228087CB700B5CC49 /* TCMSV_alldesc.json */; };
+		12D9037D280C46A50069D350 /* ParkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9037B280C46A50069D350 /* ParkTableViewCell.swift */; };
+		12D9037E280C46A50069D350 /* ParkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12D9037C280C46A50069D350 /* ParkTableViewCell.xib */; };
+		12D90380280C49610069D350 /* ParkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12D9037F280C49610069D350 /* ParkModel.swift */; };
+		12E1CCFD28167AFB0058600A /* JsonTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12E1CCFC28167AFB0058600A /* JsonTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		12CECB5728087B8300B5CC49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12CECB5A28087B8300B5CC49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12CECB5C28087B8300B5CC49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12CECB6228087CB700B5CC49 /* TCMSV_alldesc.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TCMSV_alldesc.json; sourceTree = "<group>"; };
+		12D9037B280C46A50069D350 /* ParkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkTableViewCell.swift; sourceTree = "<group>"; };
+		12D9037C280C46A50069D350 /* ParkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParkTableViewCell.xib; sourceTree = "<group>"; };
+		12D9037F280C49610069D350 /* ParkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModel.swift; sourceTree = "<group>"; };
+		12E1CCFC28167AFB0058600A /* JsonTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				12CECB4E28087B8100B5CC49 /* AppDelegate.swift */,
 				12CECB5028087B8100B5CC49 /* SceneDelegate.swift */,
 				12CECB5228087B8100B5CC49 /* ViewController.swift */,
+				12E1CCFC28167AFB0058600A /* JsonTask.swift */,
 				12CECB5428087B8100B5CC49 /* Main.storyboard */,
+				12D9037F280C49610069D350 /* ParkModel.swift */,
+				12D9037B280C46A50069D350 /* ParkTableViewCell.swift */,
+				12D9037C280C46A50069D350 /* ParkTableViewCell.xib */,
+				12CECB6228087CB700B5CC49 /* TCMSV_alldesc.json */,
 				12CECB5728087B8300B5CC49 /* Assets.xcassets */,
 				12CECB5928087B8300B5CC49 /* LaunchScreen.storyboard */,
 				12CECB5C28087B8300B5CC49 /* Info.plist */,
@@ -127,6 +142,8 @@
 			files = (
 				12CECB5B28087B8300B5CC49 /* LaunchScreen.storyboard in Resources */,
 				12CECB5828087B8300B5CC49 /* Assets.xcassets in Resources */,
+				12D9037E280C46A50069D350 /* ParkTableViewCell.xib in Resources */,
+				12CECB6328087CB700B5CC49 /* TCMSV_alldesc.json in Resources */,
 				12CECB5628087B8100B5CC49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E1CCFD28167AFB0058600A /* JsonTask.swift in Sources */,
 				12CECB5328087B8100B5CC49 /* ViewController.swift in Sources */,
+				12D90380280C49610069D350 /* ParkModel.swift in Sources */,
 				12CECB4F28087B8100B5CC49 /* AppDelegate.swift in Sources */,
 				12CECB5128087B8100B5CC49 /* SceneDelegate.swift in Sources */,
+				12D9037D280C46A50069D350 /* ParkTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
